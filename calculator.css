@@ -1,0 +1,416 @@
+ * {
+     font-size: 20px;
+ }
+
+ .main {
+     display: flexbox;
+     border: 3px solid black;
+     height: 500px;
+     width: 300px;
+     border-radius: 9px;
+     box-sizing: border-box;
+ }
+
+ .display {
+     border: 3px solid black;
+     height: 50px;
+     width: 280px;
+     box-sizing: border-box;
+     box-shadow: inset;
+     display: flex;
+     margin-left: 8px;
+     margin-top: 12px;
+     margin-bottom: 12px;
+     text-align: right;
+ }
+
+ .row-1 {
+     display: flex;
+     justify-content: space-evenly;
+     margin: 0px 12px 0px 12px;
+ }
+
+ .mc {
+     height: 40px;
+     width: 60px;
+     border-radius: 9px;
+     background-color: lightgrey;
+ }
+
+ .mc:hover {
+     color: blue;
+     background-color: white;
+ }
+
+ .mr {
+     height: 40px;
+     width: 60px;
+     border-radius: 9px;
+     background-color: lightgrey;
+ }
+
+ .mr:hover {
+     color: blue;
+     background-color: white;
+ }
+
+ .m-minus {
+     height: 40px;
+     width: 60px;
+     border-radius: 9px;
+     background-color: lightgrey;
+ }
+
+ .m-minus:hover {
+     color: blue;
+     background-color: white;
+ }
+
+ .m-plus {
+     height: 40px;
+     width: 60px;
+     border-radius: 9px;
+     background-color: lightgrey;
+ }
+
+ .m-plus:hover {
+     color: blue;
+     background-color: white;
+ }
+
+ .ac {
+     height: 50px;
+     width: 65px;
+     border-radius: 9px;
+     background-color: lightgrey;
+ }
+
+ .ac:hover {
+     color: blue;
+     background-color: white;
+ }
+
+ .root1 {
+     height: 50px;
+     width: 65px;
+     border-radius: 9px;
+     background-color: lightgrey;
+ }
+
+ .root1:hover {
+     color: blue;
+     background-color: white;
+ }
+
+ .per {
+     height: 50px;
+     width: 65px;
+     border-radius: 9px;
+     background-color: lightgrey;
+ }
+
+ .per:hover {
+     color: blue;
+     background-color: white;
+ }
+
+ .division {
+     height: 50px;
+     width: 65px;
+     border-radius: 9px;
+     background-color: yellow;
+ }
+
+ .division:hover {
+     color: blue;
+     background-color: antiquewhite;
+ }
+
+ .sev:hover {
+     color: blue;
+     background-color: antiquewhite;
+ }
+
+ .row-2 {
+
+     display: flex;
+     justify-content: space-evenly;
+     /* margin-left: 40px; */
+     margin: 5px 12px 0px 12px;
+ }
+
+ .row-3 {
+     display: flex;
+     justify-content: space-evenly;
+     margin: 5px 12px 0px 12px;
+ }
+
+ .sev {
+     height: 55px;
+     width: 65px;
+     border-radius: 9px;
+     background-color: white;
+ }
+
+ .sev:hover {
+     color: blue;
+     background-color: antiquewhite;
+ }
+
+ .eig {
+     height: 55px;
+     width: 65px;
+     border-radius: 9px;
+     background-color: white;
+ }
+
+ .eig:hover {
+     color: blue;
+     background-color: antiquewhite;
+ }
+
+ .nin {
+     height: 55px;
+     width: 65px;
+     border-radius: 9px;
+     background-color: white;
+ }
+
+ .nin:hover {
+     color: blue;
+     background-color: antiquewhite;
+ }
+
+ .mul {
+     height: 55px;
+     width: 65px;
+     border-radius: 9px;
+     background-color: yellow;
+ }
+
+ .mul:hover {
+     color: blue;
+     background-color: antiquewhite;
+ }
+
+ .sev:hover {
+     color: blue;
+     background-color: antiquewhite;
+ }
+
+ .row-4 {
+     display: flex;
+     justify-content: space-evenly;
+     margin: 5px 12px 0px 12px;
+ }
+
+ .for {
+     height: 55px;
+     width: 65px;
+     border-radius: 9px;
+     background-color: white;
+ }
+
+ .for:hover {
+     color: blue;
+     background-color: antiquewhite;
+ }
+
+ .five {
+     height: 55px;
+     width: 65px;
+     border-radius: 9px;
+     background-color: white;
+ }
+
+ .five:hover {
+     color: blue;
+     background-color: antiquewhite;
+ }
+
+ .six {
+     height: 55px;
+     width: 65px;
+     border-radius: 9px;
+     background-color: white;
+ }
+
+ .six:hover {
+     color: blue;
+     background-color: antiquewhite;
+ }
+
+ .min {
+     height: 55px;
+     width: 65px;
+     border-radius: 9px;
+     background-color: yellow;
+ }
+
+ .min:hover {
+     color: blue;
+     background-color: antiquewhite;
+ }
+
+ .row-5 {
+     display: flex;
+     justify-content: space-evenly;
+     margin: 5px 12px 0px 12px;
+ }
+
+ .one {
+     height: 55px;
+     width: 65px;
+     border-radius: 9px;
+     background-color: white;
+ }
+
+ .one:hover {
+     color: blue;
+     background-color: antiquewhite;
+ }
+
+ .two {
+     height: 55px;
+     width: 65px;
+     border-radius: 9px;
+     background-color: white;
+ }
+
+ .two:hover {
+     color: blue;
+     background-color: antiquewhite;
+ }
+
+ .thr {
+     height: 55px;
+     width: 65px;
+     border-radius: 9px;
+     background-color: white;
+ }
+
+ .thr:hover {
+     color: blue;
+     background-color: antiquewhite;
+ }
+
+ .plus {
+     height: 55px;
+     width: 65px;
+     border-radius: 9px;
+     background-color: yellow;
+ }
+
+ .plus:hover {
+     color: blue;
+     background-color: antiquewhite;
+ }
+
+ .row-6 {
+     display: flex;
+     justify-content: space-evenly;
+     /* margin-left: 40px; */
+     margin: 5px 12px 0px 12px;
+ }
+
+ .zero {
+     height: 55px;
+     width: 65px;
+     border-radius: 9px;
+     background-color: white;
+ }
+
+ .zero:hover {
+     color: blue;
+     background-color: antiquewhite;
+ }
+
+ .dot {
+     height: 55px;
+     width: 65px;
+     border-radius: 9px;
+     background-color: white;
+ }
+
+ .dot:hover {
+     color: blue;
+     background-color: antiquewhite;
+ }
+
+ .p-m {
+     height: 55px;
+     width: 65px;
+     border-radius: 9px;
+     background-color: white;
+ }
+
+ .p-m:hover {
+     color: blue;
+     background-color: antiquewhite;
+ }
+
+ .eqa {
+     height: 55px;
+     width: 65px;
+     border-radius: 9px;
+     background-color: yellow;
+ }
+
+ .eqa:hover {
+     color: blue;
+     background-color: antiquewhite;
+ }
+
+ .row-7 {
+     display: flex;
+     justify-content: space-evenly;
+     margin: 5px 12px 0px 12px;
+ }
+
+ .pi {
+     height: 55px;
+     width: 65px;
+     border-radius: 9px;
+     background-color: lightgray;
+ }
+
+ .pi:hover {
+     color: blue;
+     background-color: antiquewhite;
+ }
+
+ .squ {
+     height: 55px;
+     width: 65px;
+     border-radius: 9px;
+     background-color: lightgray;
+ }
+
+ .squ:hover {
+     color: blue;
+     background-color: antiquewhite;
+ }
+
+ .r2 {
+     height: 55px;
+     width: 65px;
+     border-radius: 9px;
+     background-color: lightgray;
+ }
+
+ .r2:hover {
+     color: blue;
+     background-color: antiquewhite;
+ }
+
+ .r0 {
+     height: 55px;
+     width: 65px;
+     border-radius: 9px;
+     background-color: lightgray;
+ }
+
+ .r0:hover {
+     color: blue;
+     background-color: antiquewhite;
+ }

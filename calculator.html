@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Calculator">
+  <link rel="apple-touch-icon" href="download.png">
+  <title>Document</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="calculator.css">
+  
+</head>
+
+<body>
+
+  <div class="main">
+    <div>
+      <input type="text" id="display" class="display" disabled>
+    </div>
+    <div class="button">
+      <div class="row-1">
+        <button class="mc">mc</button>
+        <button class="mr">mr</button>
+        <button class="m-minus">m-</button>
+        <button class="m-plus">m+</button>
+
+      </div>
+      <div class="row-2">
+        <button class="ac" onclick="clearDisplay()">Ac</button>
+        <button class="root1">&#8730(x)</button>
+        <button class="per">%</button>
+        <button class="division" onclick="appendValue('/')"> <b>&#247</b></button>
+      </div>
+      <div class="row-3">
+        <button class="sev" onclick="appendValue('7')"><b>7</b></button>
+        <button class="eig" onclick="appendValue('8')"><b>8</b></button>
+        <button class="nin" onclick="appendValue('9')"><b>9</b></button>
+        <button class="mul" onclick="appendValue('*')"><b>*</b></button>
+      </div>
+      <div class="row-4">
+        <button class="for" onclick="appendValue('4')"><b>4</b></button>
+        <button class="five" onclick="appendValue('5')"><b>5</b></button>
+        <button class="six" onclick="appendValue('6')"><b>6</b></button>
+        <button class="min" onclick="appendValue('-')"><b>&#8722</b></button>
+      </div>
+      <div class="row-5">
+        <button class="one" onclick="appendValue('1')"><b>1</b></button>
+        <button class="two" onclick="appendValue('2')"><b>2</b></button>
+        <button class="thr" onclick="appendValue('3')"><b>3</b></button>
+        <button class="plus" onclick="appendValue('+')"><b>+</b></button>
+      </div>
+      <div class="row-6">
+        <button class="zero" onclick="appendValue('0')"><b>0</b></button>
+        <button class="dot" onclick="appendValue('.')"><b>.</b></button>
+        <button class="p-m"><b>+/&#8722</b></button>
+        <button class="eqa" onclick="calculate()"><b>=</b></button>
+      </div>
+      <div class="row-7">
+        <button class="pi"><b>&#8508</b></button>
+        <button class="squ"><b>x<sup>y</sup></b></button>
+        <button class="r2"><b>R2</b></button>
+        <button class="r0"><b>R0</b></button>
+      </div>
+    </div>
+  </div>
+ 
+<script src="calculator.js"></script>
+</body>
+
+</html>
